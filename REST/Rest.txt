@@ -1,0 +1,39 @@
+REST
+Representational State Transfer
+REST is a architectural style that defines a set of constraints(rules) to be used for creating web services.
+
+RESTful APIs(applies rules of REST)
+examples- GET/2/users,GET/2/tweets etc.
+
+Resource- documentation(blogpost on stackoverflowc-- best practices for rest api design)
+
+CRUD operation
+CREATE
+READ 
+UPDATE
+DELETE
+
+GET- retrieves resources
+POST- submits new data to the server
+PUT- updates existing data
+PATCH- update existing data partially
+DELETE- removes data
+
+Resource - data on which CRUD operation is performed.
+
+To connect different pages
+Redirect can be used
+res.direct(url)
+
+Create ID for Posts
+UUID Package(Universally Unique Identifier)
+npm install uuid
+
+
+
+
+
+
+
+
+
